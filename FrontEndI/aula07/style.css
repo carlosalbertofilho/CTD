@@ -1,0 +1,17 @@
+/* seletores de tag do HTML */
+body {
+    color: gray;
+}
+p {
+    color: tomato;
+}
+
+/* seletores de clase */
+.texto-principal {
+    color: steelblue;
+    font-size: 24px;
+}
+
+.negrito {
+    color: red;
+}
