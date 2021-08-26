@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Aula 08 - Array</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <script type="text/javascript">
+        //declaração de uma array
+        var frutas = ["Morango", "Laranja", "Banana"];
+         console.log(frutas);
+         // acesa o ultimo dado
+         console.log(frutas[2]);
+         // lista o tamanhao da lista
+         console.log(frutas.length);
+
+         // CRUD - Cria, Ler, Atualiza e Deleta
+         // Adiciona no inicio
+         frutas.unshift("Manga");
+         //Adicionar ao fim - (criar)
+         frutas.push("Abacate");
+         // Resultado
+         console.log(frutas);
+         // Adiciona valor na posição
+         frutas[2]='Pera';
+         frutas.push('Melão');
+
+         //Remover
+         // remove o último
+         frutas.pop();
+         // remove o primeiro
+         frutas.shift();
+
+         // Resultado
+         console.log(frutas);
+         // Adiciona no inicio
+         frutas.unshift("Manga");
+         // Resultado
+         console.log(Object.keys(frutas));
+         console.log(frutas);
+         console.log(frutas.indexOf("Laranja"));
+        </script>
+    </body>
+</html>
