@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Mesa de Trablaho 11</title>
+        <meta charset="utf-8" />
+        <style type="text/css" media="screen">
+         * {
+             padding: 0px;
+             margin: 0px;
+         }
+         div {
+             border: 3px solid black;
+             width: 100px;
+             height: 100px;
+             display: block;
+         }
+         .interno {
+             text-align: center;
+             position: relative;
+             margin: 10px;
+             width: 75px;
+             height: 75px;
+         }
+         .direita {
+             display: block;
+             position: absolute;
+             top: 0;
+             right: 0;
+         }
+         .fundo {
+             display: block;
+             position: absolute;
+             bottom: 0;
+             right: 50%;
+         }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="interno">
+                <p>div</p>
+            </div>
+        </div>
+        <div class="direita">
+            <div class="interno">
+                <p>div</p>
+            </div>
+        </div>
+        <div class="fundo">
+            <div class="interno">
+                <p>div</p>
+            </div>
+        </div>
+     </body>
+</html>
