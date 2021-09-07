@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Calligraffitti&family=JetBrains+Mono:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+    background-image: url("img/background-RioDeJaneiro.jpeg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 720px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Allison', cursive;
+    font-size: 64px;
+    color: whitesmoke;
+}
+
+.box-main {
+    height: 10em;
+    position: relative;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+}
+
+.bem-vindo {
+    background: #f5f1f15c;
+    border-radius: 1em;
+    padding: 1em;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.bem-vindo h1 {
+    font-family: 'Calligraffitti', cursive;
+    font-size: 50px;
+}
+
+.bem-vindo p {
+    margin-top: 50px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 25px;
+}
+.box-mensagem {
+    top: 720px;
+    position: absolute;
+
+}
