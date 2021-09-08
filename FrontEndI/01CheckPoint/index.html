@@ -4,15 +4,60 @@
         <title>Rio de Janeiro - 1º CheckPoint - Front End I</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+        <script type="text/javascript">
+         window.location = "#pag-1";
+        </script>
     </head>
     <body>
         <header>
             <h1>Rio de Janeiro</h1>
         </header>
         <main>
-            <div class="box-main bem-vindo">
+            <div class="box-main bem-vindo" id="pag-1">
                 <h1>Bem-Vindo!</h1>
                 <p>a cidade maravilhosa</p>
+                <button class="botao nav-direita">
+                    <a href="#pag-2">
+                        <span class="material-icons">arrow_forward</span>
+                    </a>
+                </button>
+            </div>
+            <div class="box-main pag-2" id="pag-2">
+                <button class="botao nav-esquerda">
+                    <a href="#pag-1">
+                        <span class="material-icons">arrow_back</span>
+                    </a>
+                </button>
+                <h2>A cidade Maravilhosa</h2>
+
+                <section >
+                    	              <p>
+		É um dos principais centros econômicos, culturais e financeiros do país, sendo internacionalmente conhecida por diversos ícones culturais e paisagísticos, como o Pão de Açúcar, o morro do Corcovado com a estátua do Cristo Redentor, as praias dos bairros de Copacabana, Ipanema e Barra da Tijuca, entre outras; os estádios do Maracanã e Nilton Santos; o bairro boêmio da Lapa e seus arcos; o Theatro Municipal do Rio de Janeiro; as florestas da Tijuca e da Pedra Branca; a Quinta da Boa Vista; a Biblioteca Nacional; a ilha de Paquetá; o réveillon de Copacabana; o carnaval carioca; a Bossa Nova e o samba. Parte da cidade foi designada Patrimônio Cultural da Humanidade pela UNESCO em 1 de julho de 2012
+	              </p>
+	              <p>
+		Representa o segundo maior PIB do país (e o 30º maior do mundo), estimado em cerca de 329 bilhões de reais (IBGE/2016), e é sede das duas maiores empresas brasileiras - a Petrobras e a Vale, e das principais companhias de petróleo e telefonia do Brasil, além do maior conglomerado de empresas de mídia e comunicações da América Latina, o Grupo Globo. Contemplado por grande número de universidades e institutos, é o segundo maior polo de pesquisa e desenvolvimento do Brasil, responsável por 19% da produção científica nacional, segundo dados de 2005. Rio de Janeiro é considerada uma cidade global beta - pelo inventário de 2008 da Universidade de Loughborough.
+	              </p>
+                </section>
+                <button class="botao nav-direita">
+                    <a href="#pag-3">
+                        <span class="material-icons">arrow_forward</span>
+                    </a>
+                </button>
+            </div>
+            <div class="box-main" id="pag-3">
+                <button class="botao nav-esquerda">
+                    <a href="#pag-2">
+                        <span class="material-icons">arrow_back</span>
+                    </a>
+                </button>
+                <p>teste</p>
+                <button class="botao nav-direita">
+                    <a href="#pag-3">
+                        <span class="material-icons">arrow_forward</span>
+                    </a>
+                </button>
             </div>
         </main>
         <footer>
@@ -24,8 +69,9 @@
                 <div class="footer-sobre">
                     <img src="img/eu.png" alt="Carlos Alberto" />
                     <div class="sobre-conteudo">
+                        <p>Carlos Alberto S. S. Filho</p>
                         <p>Aprendiz de Desenvolvedor Full Stack</p>
-                        <p>Graduando em Ciência da Computação - Estácio</p>
+                        <p>Cursando Ciência da Computação - Estácio</p>
                     </div>
                 </div>
             </div>
