@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <title>Aula 13 - Formulário</title>
+        <meta charset="utf-8" />
+        <style type="text/css" media="screen">
+             div {
+                 padding: 10px 0;
+             }
+         input, textarea {
+
+         }
+        </style>
+    </head>
+    <body>
+        <p>Aprendendo formulários</p> 
+        <form>
+            <div>
+                <label for="email">E-mail: </label>
+                <input name="email" type="text" id="email" maxLength="30" value=""/>
+            </div>
+            <div>
+                <label for="socialNumber">CPF: </label>
+                <input name="socialNumber" maxLength="11" id="socialNumber" type="number" value=""/>
+            </div>
+            <div>
+                <label for="dataNascimento">Data de Nascimento: </label>
+                <input type="date" name="dataNascimento" id="dataNascimento" value="" />
+            </div>
+            <div>
+                <label for="password">Senha: </label>
+                <input type="password" name="password" id="password" value="" />
+            </div>
+            <div>
+                <label for="confirmeSenha">Confirme a Senha: </label>
+                <input type="password" name="confirmeSenha" id="confirmeSenha" value="" />
+            </div>
+            <div>
+                <label for="city">Cidade: </label>
+                <select id="city" name="city">
+                    <option value="saoPaulo">São Paulo</option>
+                    <option value="saoRoque">São Roque</option>
+                    <option value="manaus">Manaus</option>
+                    <option value="rio">Rio de Janeiro</option>
+                </select>
+            </div>
+            <div>
+                <label for="comments">Comentários: </label>
+                <textarea name="comments" id="comments" rows="30" cols="30" tabindex=""></textarea>
+            </div>
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </body>
+</html>
