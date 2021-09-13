@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Bolos de Festas</h1>
+  </header>
+  <main>
+    <section>
+      <form>
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <label for="nome">Nome Completo: </label>
+          <input type="text" name="nome" value="Seu Nome">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" value="Digite seu e-mail">
+          <label for="agendarPedido">Agendar Pedido: </label>
+          <input type="date" name="agendarPedido" id="agendarPedido" value="">
+        </fieldset>
+        <fieldset>
+          <legend>Cardápio</legend>
+           <label for="cardapio">Escolha seu bolo: </label>   
+           <select name="cardapio" id="cardapio">
+             <optgroup label="Clássico">
+               <option value="1">BOLO DE ABACAXI COM COCO COM RECHEIO DE BEIJINHO E MORANGOS</option>
+               <option value="2">BOLO DE CHOCOLATE COM BRIGADEIRO E MORANGO</option>
+               <option value="3">BOLO DE CHOCOLATE COM CONFETE E BIS</option>
+               <option value="4">BOLO DE CHOCOLATE COM BOLINHAS E CONFETES</option>
+             <optgroup>
+             <optgroup label="Premium">
+               <option value="5">BOLO DE FESTA PREMIUM FEITO COM ALPINO</option> 
+               <option value="6">BOLO DE FESTA PREMIUM FEITO COM CHARGE</option>
+               <option value="7">BOLO DE FESTA PREMIUM DE FRUTAS VERMELHAS</option>
+               <option value="8">BOLO DE FESTA PREMIUM FEITO COM NEGRESCO</option>
+             <optgroup>
+           </select>
+           <label for="observacao">Informe detalhes:</label>
+           <textarea rows="10" cols="30">
+             Informe detalhes
+           </textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Pagamento</legend>
+           <label for="pagamento">Escolha a forma de Pagamento </label>   
+           <select id="pagamento" name="pagamento">
+            <option value="0">Pix</option>
+            <option value="1">PalPay</option>
+            <option value="2">Mercado Pago</option>
+          </select>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar Formulário</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</htmlt>
