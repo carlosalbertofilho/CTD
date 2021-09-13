@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Aula 12 - arrays</title>
+  <meta charset="utf-8" />
+</head>
+
+<body>
+  <script type="text/javascript">
+    var valoresNumericos = [1, 2, 3, 4, 5, 6, 2];
+    function dobraValores(item, indice, arrayOriginal) {
+      return item * 2;
+    }
+    var valoresDobrados = valoresNumericos.map(dobraValores);
+    console.log(valoresDobrados);
+
+    var filtraValoresDuplicados = valoresNumericos.filter(
+      function (item, indice, arrayOriginal) {
+        return item;
+      });
+
+    console.log('filter()', filtraValoresDuplicados);
+
+    var filtrarValor2 = valoresNumericos.filter(function (item) {
+      return item == 2;
+    });
+    console.log('filter()', filtrarValor2);
+  </script>
+</body>
+
+</html>
