@@ -1,0 +1,19 @@
+form fieldset {
+  background-color: salmon;
+}
+
+div, h1 {
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  background-color: tomato;
+  color: white;
+  transition-duration: .5s;
+}
+
+button:hover {
+  background-color: violet;
+}

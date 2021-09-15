@@ -1,0 +1,37 @@
+form fieldset {
+  background-color: salmon;
+}
+
+div, h1 {
+  margin-top: 10px;
+}
+
+h1::first-letter {
+  font-size: 70px;
+}
+
+input:focus[type=text] {
+  transform: scale(1.2);
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  background-color: tomato;
+  color: white;
+  transition-duration: .5s;
+}
+
+button:hover {
+  background-color: violet;
+}
+
+:checked ~ label {
+  color: red;
+}
+
+input:disabled {
+  background: #ccc;
+}
