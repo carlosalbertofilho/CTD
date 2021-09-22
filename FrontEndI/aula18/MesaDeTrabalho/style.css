@@ -1,0 +1,47 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas: 
+  'header header'
+  'aside main'
+  'footer footer';
+}
+
+body header {
+  background-color: #345b63;
+  grid-area: header;
+  height: 50px;
+}
+
+body aside {
+  background-color: #152d35;
+  grid-area: aside;
+}
+
+body main {
+  background-color: #ddf0e4;
+  grid-area: main;
+  min-height: 90vh;
+}
+
+aside li {
+  text-decoration: none;
+}
+
+#banner {
+  height: 300px;
+  width: 0.7fr;
+}
+
+body footer {
+  background-color: #000f06;
+  grid-area: footer;
+  position: sticky;
+  bottom: 0;
+  height: 10vh;
+}
