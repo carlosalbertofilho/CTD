@@ -1,0 +1,15 @@
+{
+  "name": "mesadetrabalho",
+  "version": "1.0.0",
+  "description": "Mesa de Trabalho da Aula 17",
+  "main": "index.js",
+  "scripts": {
+    "iniciar": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Filho, Mariana Fachinello, Eduardo Ananias, Tatiana Almeida e Vando Borges",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "expressjs": "^1.0.1"
+  }
+}

@@ -5,7 +5,7 @@ padding: 0;
 
 body {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 150px 1fr;
   grid-template-areas: 
   'header header'
   'aside main'
@@ -15,12 +15,40 @@ body {
 body header {
   background-color: #345b63;
   grid-area: header;
-  height: 50px;
+  position: sticky;
+  top: 0px;
+}
+
+body header div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 20px
+}
+header div img {
+  height: 100px;
+  width: 100px;
 }
 
 body aside {
   background-color: #152d35;
   grid-area: aside;
+}
+
+
+body aside a {
+  text-decoration: none;
+  padding: 10px;
+  color: #f7f5f5;
+}
+
+aside a:hover {
+  color: #b7c2d8;
+}
+
+aside a li {
+  list-style: none;
 }
 
 body main {
