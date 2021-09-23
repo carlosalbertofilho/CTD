@@ -54,7 +54,16 @@ aside a li {
 body main {
   background-color: #ddf0e4;
   grid-area: main;
-  min-height: 90vh;
+  min-height: 70vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  padding: 35px;
 }
 
 aside li {
