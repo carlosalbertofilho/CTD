@@ -1,0 +1,18 @@
+-- Mesa de Trabalho - Aula 11
+-- Aluno: Carlos Alberto Silva dos Santos Filho
+-- Turma: 13N
+USE EMarket;
+-- Na base e-Market, existem 13 tabelas, a saber:
+-- Categorias: onde estão cadastradas as categorias dos produtos.
+-- Clientes: onde  estão cadastrados os Clientes
+-- ClientesDemo: esta tabela estará vazia
+-- ClientesDemografia: esta tabela estará vazia
+-- Correios: Nome e telefone das empresas de transporte
+-- DetalheFatura: Detalhe do que foi comprado em cada fatura
+-- EmpregadoLocalizacao: Lista da localização de cada funcionário
+-- Fornecedores: Lista dos fornecedores que fornecem os produtos
+-- Funcionários: Lista de funcionário responsáveis pela venda
+-- Faturas: Lista de faturas de cada venda
+-- Localizações: Localização geográfica
+-- Produtos: Produtos  que são vendidos na empresa
+-- Regiões: regiões onde a empresa opera.
