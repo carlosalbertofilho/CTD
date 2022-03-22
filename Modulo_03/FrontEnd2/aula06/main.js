@@ -1,5 +1,7 @@
-let bodyReference = document.querySelector('body')
-let changeClassButtonRefernece = document.querySelector('#changeClassButton')
+/*jshint esversion: 6 */
+/*jshint multistr: true */
+let bodyReference = document.querySelector('body');
+let changeClassButtonRefernece = document.querySelector('#changeClassButton');
 
 let posts = [
     {
@@ -36,7 +38,7 @@ let posts = [
     {
         image: './imagens/jaguar.jpg',
         title: 'O jaguar',
-        description: 'O jaguar, ou jaguarete (Panthera onca) é um carnívoro felídeo da sub-família Panthera e do \
+        description: 'O jaguar, ou jaguarete (Panthera onca) é um carnívoro felíd;eo da sub-família Panthera e do \
         gênero Panthera. É a única das cinco espécies existentes deste gênero encontradas nas Américas. Também \
         é o maior felino das Américas e o terceiro maior do mundo, depois do tigre (Panthera tigris) e do leão (Panthera \
         leo).'
