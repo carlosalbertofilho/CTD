@@ -1,0 +1,15 @@
+
+main, .titulo, .tabelaResposta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section h2 {
+    text-align: center;
+}
+
+section img {
+    width: 100px;
+    height: 80px;
+}
