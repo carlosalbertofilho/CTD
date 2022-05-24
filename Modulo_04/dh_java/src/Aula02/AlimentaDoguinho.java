@@ -12,10 +12,9 @@ public class AlimentaDoguinho {
         System.out.print("Digite a quantida de pacotes: ");
         float quantidadePacote = entrada.nextFloat();
 
-        System.out.println(quantosPacotes(nome, quantidadePacote));
+        System.out.println(quantosPacotes(entrada, nome, quantidadePacote));
     }
-    public static String quantosPacotes(String nome, float quantidadeRacao) {
-        Scanner entrada = new Scanner(System.in);
+    public static String quantosPacotes(Scanner entrada, String nome, float quantidadeRacao) {
         int pacote = 0;
         float pesoPorPacote = 0.0f;
         if( quantidadeRacao >= 3) {
