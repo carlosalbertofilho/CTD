@@ -80,5 +80,4 @@ public class Desafio02 {
       return 2;
     }
   }
-
 }
