@@ -1,0 +1,3 @@
+interface GravarImposto {
+   public double imposto(double proc);
+}
