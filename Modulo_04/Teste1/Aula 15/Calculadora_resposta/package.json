@@ -4,7 +4,8 @@
   "description": "",
   "main": "calc.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [
     "test",
@@ -13,9 +14,9 @@
   "author": "DH",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^27.2.3"
+    "jest": "^27.5.1"
   },
-  "jest":{
+  "jest": {
     "testEnvironment": "node"
   }
 }

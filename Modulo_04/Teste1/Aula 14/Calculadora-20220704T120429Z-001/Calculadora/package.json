@@ -1,0 +1,19 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "funcionalidade.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Carlos Alberto Filho",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.2",
+    "jest-environment-jsdom": "^28.1.2"
+  },
+  "jest":{
+    "testEnvironment": "jsdom"
+  }
+}
